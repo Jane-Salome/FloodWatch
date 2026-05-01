@@ -43,12 +43,6 @@ Urban flooding causes massive damage every year due to lack of timely warnings. 
 
 ---
 
-## Research
-
-This project was presented as a research paper, demonstrating its potential as a scalable solution for smart city flood management.
-
----
-
 ## Author
 
 **Jane Salome D**  
