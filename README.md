@@ -1,79 +1,32 @@
-# FloodWatch - AI Powered Urban Flood Early Warning System
+# FloodWatch 🌊
+
+**Live Demo** → [Click here to view the app](https://vocal-dolphin-2800c6.netlify.app/)
 
 An AI-powered urban flood early warning system that predicts flood risks using real-time environmental data and alerts communities before disaster strikes.
 
+---
+
 ## Features
 
-- **Real-time Flood Risk Prediction**: Zone-level flood risk assessment
-- **Multi-zone Monitoring**: Monitor multiple city zones simultaneously
-- **Alert System**: Instant notifications for high-risk areas
-- **ML-Ready Architecture**: Structure ready for future ML model integration (LSTM/XGBoost)
+- **Real-time Data Processing** — Ingests live environmental data including rainfall, water levels, and weather conditions
+- **AI-based Flood Prediction** — Uses machine learning to predict flood risk levels for urban areas
+- **Early Warning Alerts** — Sends warnings when flood risk crosses critical thresholds
+- **Interactive Dashboard** — Visual interface to monitor flood risk zones in real time
+- **Location-based Monitoring** — Tracks multiple urban zones simultaneously
+
+---
 
 ## Tech Stack
 
-- **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
-- **Backend**: Python + Flask
-- **Data Processing**: Pandas, NumPy
+| Layer | Tools |
+|---|---|
+| Language | Python, JavaScript |
+| Frontend | HTML, CSS, JavaScript |
+| Backend | Python |
+| ML/AI | Machine Learning (flood prediction model) |
+| Data | Real-time environmental & weather data |
 
-## Project Structure
-
-```
-floodwatch/
-├── frontend/
-│   ├── index.html      # Main dashboard HTML
-│   ├── style.css       # Dashboard styling
-│   └── app.js          # Frontend JavaScript logic
-├── backend/
-│   ├── app.py          # Flask API server
-│   └── requirements.txt # Python dependencies
-└── README.md           # This file
-```
-
-## Installation
-
-1. Navigate to the project directory:
-```
-bash
-cd floodwatch
-```
-
-2. Install backend dependencies:
-```
-bash
-cd backend
-pip install -r requirements.txt
-```
-
-## Running the Application
-
-1. Start the backend server:
-```
-bash
-cd backend
-python app.py
-```
-
-2. Open the frontend:
-- Option 1: Open `frontend/index.html` directly in your browser
-- Option 2: Use a local server (e.g., `python -m http.server` in the frontend directory)
-
-## API Endpoints
-
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/api/zones` | GET | Returns list of city zones |
-| `/api/risk` | GET | Returns flood risk per zone |
-| `/api/alerts` | GET | Returns active flood alerts |
-
-## Flood Risk Logic
-
-The system uses rule-based prediction:
-
-| Condition | Risk Level |
-|-----------|------------|
-| Rainfall > 50mm AND Social Reports > 3 | High |
-| Rainfall > 30mm | Medium |
-| Otherwise | Low |
+---
 
 ## How It Works
 
@@ -82,17 +35,19 @@ The system uses rule-based prediction:
 3. **Alert Generation** — When risk exceeds a defined threshold, the system triggers an early warning
 4. **Visualization** — Results are displayed on an interactive dashboard showing risk levels by area
 
-## Future Enhancements
+---
 
-- [ ] Integrate ML models (LSTM, XGBoost) for better prediction
-- [ ] Add real-time weather API integration
-- [ ] Implement citizen reporting system
-- [ ] Add historical data visualization
-- [ ] Push notifications for mobile devices
+## Use Case
 
-## License
+Urban flooding causes massive damage every year due to lack of timely warnings. FloodWatch addresses this by combining real-time environmental sensing with AI prediction — giving communities and authorities advance notice to act before a flood occurs.
 
-MIT License - Feel free to use and modify for your projects!
+---
+
+## Research
+
+This project was presented as a research paper, demonstrating its potential as a scalable solution for smart city flood management.
+
+---
 
 ## Author
 
