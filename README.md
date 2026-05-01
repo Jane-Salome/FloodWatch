@@ -1,6 +1,6 @@
 # FloodWatch - AI Powered Urban Flood Early Warning System
 
-A beginner-friendly web application that predicts short-term urban flood risk (0-30 minutes) using rainfall data and citizen distress signals.
+An AI-powered urban flood early warning system that predicts flood risks using real-time environmental data and alerts communities before disaster strikes.
 
 ## Features
 
@@ -75,6 +75,13 @@ The system uses rule-based prediction:
 | Rainfall > 30mm | Medium |
 | Otherwise | Low |
 
+## How It Works
+
+1. **Data Collection** — Collects real-time environmental inputs such as rainfall intensity, soil moisture, and drainage capacity
+2. **Risk Prediction** — AI model analyzes the data and computes a flood probability score for each monitored zone
+3. **Alert Generation** — When risk exceeds a defined threshold, the system triggers an early warning
+4. **Visualization** — Results are displayed on an interactive dashboard showing risk levels by area
+
 ## Future Enhancements
 
 - [ ] Integrate ML models (LSTM, XGBoost) for better prediction
@@ -87,6 +94,8 @@ The system uses rule-based prediction:
 
 MIT License - Feel free to use and modify for your projects!
 
----
+## Author
 
-Built with ❤️ for urban safety and disaster preparedness
+**Jane Salome D**  
+B.Tech Information Technology — Sri Sairam Engineering College  
+[LinkedIn](https://www.linkedin.com/in/jane-salome-d-a47a91295) | [GitHub](https://github.com/Jane-Salome)
